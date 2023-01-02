@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: var(--first-color);
+}
+:root{
+    --first-color:#000814;
+    --second-color:#ffc300;
+    --third-color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+}
+.logo i{
+    color: var(--second-color);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav .logo a{
+    font-size: 30px;
+    color: var(--second-color);
+    font-weight: bolder;
+}
+.nav ul a,.nav .phone a{
+    font-size: 20px;
+    color: var(--third-color);
+    padding-bottom: 10px;
+}
+.nav ul a:hover{
+    border-bottom: 1px solid var(--second-color);
+}
+.home{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/pexels-elevate-1267320.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home h1{
+    color: var(--third-color);
+    font-size: 60px;
+    padding: 0 100px;
+    text-align: center;
+}
+.home a{
+    background: var(--second-color);
+    color: var(--first-color);
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+.home a:hover{
+    padding: 10px 40px;
+}
+.trend img{
+    width: 600px;
+    border-radius: 10px;
+}
+.trend .top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;  
+    gap: 140px;  
+}
+.trend .top .left h1{
+    color: var(--second-color);
+    font-size: 60px;
+    font-weight: bolder;
+    border-bottom: 1px solid var(--second-color);
+}
+.trend .top .left p{
+    color: var(--third-color);
+    margin: 40px 0;
+}
+.trend .top .left a{
+    font-size: 25px;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+.div-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    color: var(--second-color);
+    font-size: 50px;
+}
+.div-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--third-color);
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.card i{
+    color: var(--second-color);
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.card h1{
+    color: var(--third-color);
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.card p{
+    color: var(--third-color);
+    font-weight: 100;
+    padding-right: 55px;
+    text-align: justify;
+}
+.ch{
+    width: 300px;
+    height: 400px;
+    border: 1px solid var(--second-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-miquel-ferran-gomez-figueroa-3814446.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ch .name{
+    color: var(--second-color);
+}
+.ch .sp{
+    color: var(--third-color);
+}
+.chs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    place-content: center;
+}
+.ch2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-elevate-1267320.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-chokniti-khongchum-2280545.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-iina-luoto-1211887.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd3{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-jan-n-g-u-y-e-n-🍁-699953.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd4{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-pixabay-461198.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd5{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-rajesh-tp-1624487.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd6{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-valeria-boltneva-1860204.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd7{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-rajesh-tp-1633578.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fd8{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/pexels-valeria-boltneva-842545.jpg);
+    background-position: center;
+    background-size: cover;
+}
